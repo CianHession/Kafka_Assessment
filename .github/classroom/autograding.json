@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Compile Tuneify API Service",
+      "setup": "",
+      "run": "cd tuneify-api; mvn clean -q package",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    },
+    {
+      "name": "Compile Tuneify Reporting Service",
+      "setup": "",
+      "run": "cd tuneify-reporting-service; mvn clean -q package",
+      "input": "",
+      "output": "",
+      "comparison": "",
+      "timeout": 2,
+      "points": 0
+    }
+  ]
+}
